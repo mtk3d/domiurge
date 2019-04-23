@@ -29,28 +29,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`uscs hello [FILE]`](#uscs-hello-file)
 * [`uscs help [COMMAND]`](#uscs-help-command)
-
-## `uscs hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ uscs hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ uscs hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/mtk3d/uscs/blob/v0.0.0/src/commands/hello.ts)_
+* [`uscs init [FILE]`](#uscs-init-file)
 
 ## `uscs help [COMMAND]`
 
@@ -68,4 +48,18 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+
+## `uscs init [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ uscs init [FILE]
+
+OPTIONS
+  -h, --help  show CLI help
+```
+
+_See code: [src/commands/init.ts](https://github.com/mtk3d/uscs/blob/v0.0.0/src/commands/init.ts)_
 <!-- commandsstop -->

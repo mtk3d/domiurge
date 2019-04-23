@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "properties": {
+    "services_templates": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "git": {
+              "type": "object",
+              "properties": {
+                "repository": {
+                  "type": "string"
+                },
+                "branch": {
+                  "type": "string"
+                }
+              }
+            },
+            "local_init_script": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "containers_init_script": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "script": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "commands": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [ "services" ]
+}
