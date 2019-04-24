@@ -3,7 +3,7 @@ import ParserInterface from './parser-interface';
 export default class ConfigParser implements ParserInterface {
   data!: any;
 
-  parse(data: any) : any {
+  parse(data: any): any {
     this.data = data;
     this.data = this._mergeTemplates(this.data);
     this.data = this._mergeCommands(this.data);
@@ -11,7 +11,7 @@ export default class ConfigParser implements ParserInterface {
     return this.data;
   }
 
-  _mergeTemplates(data: any) : any {
+  _mergeTemplates(data: any): any {
     let parsedData = data;
     parsedData.services = data.services.map((service: any) => {
       let templated = service;
@@ -23,7 +23,7 @@ export default class ConfigParser implements ParserInterface {
           throw new Error('Template not found');
         }
 
-        templated = { ...service, ... serviceTemplate };
+        templated = {...service, ...serviceTemplate};
       }
       return templated;
     });
@@ -31,7 +31,7 @@ export default class ConfigParser implements ParserInterface {
     return parsedData;
   }
 
-  _mergeCommands(data: any) : any {
+  _mergeCommands(data: any): any {
     let parsedData = data;
     parsedData.services = data.services.map((service: any) => {
       let templated = service;

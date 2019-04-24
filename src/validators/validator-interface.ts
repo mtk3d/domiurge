@@ -1,3 +1,3 @@
 export default interface ValidatorInterface {
-  validate(data: object) : boolean | string;
+  validate(data: object): boolean | string;
 }

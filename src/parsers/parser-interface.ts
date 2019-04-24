@@ -1,3 +1,3 @@
 export default interface ParserInterface {
-  parse(data: any) : any;
+  parse(data: any): any;
 }

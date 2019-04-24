@@ -5,12 +5,12 @@ import slugify from 'slugify';
 export default class ExecTask {
   tasks: any = {};
 
-  addTask(title: string) : string {
+  addTask(title: string): string {
     const slug = slugify(title);
     this.tasks[slug] = {
       title,
       commands: []
-    }
+    };
 
     return slug;
   }
@@ -19,7 +19,7 @@ export default class ExecTask {
     this.tasks[slug].commands.push({
       title,
       command
-    })
+    });
   }
 
   getTask() {
@@ -35,8 +35,8 @@ export default class ExecTask {
       listrTasks.push({
         title: task.title,
         task: () => new Listr(commandsTasks)
-      })
-    })
+      });
+    });
     return new Listr(listrTasks, {concurrent: 5});
   }
 }
