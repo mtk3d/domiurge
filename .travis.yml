@@ -5,9 +5,7 @@ node_js:
 cache: yarn
 
 script:
-  - .\bin\run --version
-  - .\bin\run --help
-  # - yarn run test
+  - yarn run test
 
 deploy:
   provider: npm
