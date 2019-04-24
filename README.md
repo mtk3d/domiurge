@@ -20,7 +20,7 @@ $ npm install -g uscs
 $ uscs COMMAND
 running command...
 $ uscs (-v|--version|version)
-uscs/0.0.0 darwin-x64 node-v10.15.3
+uscs/0.0.2 darwin-x64 node-v10.15.3
 $ uscs --help [COMMAND]
 USAGE
   $ uscs COMMAND
@@ -29,8 +29,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`uscs containers ACTION`](#uscs-containers-action)
 * [`uscs help [COMMAND]`](#uscs-help-command)
-* [`uscs init [FILE]`](#uscs-init-file)
+* [`uscs init`](#uscs-init)
+* [`uscs mysql [FILE]`](#uscs-mysql-file)
+* [`uscs run COMMAND_NAME`](#uscs-run-command_name)
+
+## `uscs containers ACTION`
+
+Manage containers
+
+```
+USAGE
+  $ uscs containers ACTION
+
+ARGUMENTS
+  ACTION  (start|restart|rebuild) What you want to do with containers?
+```
+
+_See code: [src/commands/containers.ts](https://github.com/mtk3d/uscs/blob/v0.0.2/src/commands/containers.ts)_
 
 ## `uscs help [COMMAND]`
 
@@ -49,17 +66,44 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
 
-## `uscs init [FILE]`
+## `uscs init`
+
+Initialize project
+
+```
+USAGE
+  $ uscs init
+```
+
+_See code: [src/commands/init.ts](https://github.com/mtk3d/uscs/blob/v0.0.2/src/commands/init.ts)_
+
+## `uscs mysql [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ uscs init [FILE]
+  $ uscs mysql [FILE]
 
 OPTIONS
-  -h, --help  show CLI help
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
 ```
 
-_See code: [src/commands/init.ts](https://github.com/mtk3d/uscs/blob/v0.0.0/src/commands/init.ts)_
+_See code: [src/commands/mysql.ts](https://github.com/mtk3d/uscs/blob/v0.0.2/src/commands/mysql.ts)_
+
+## `uscs run COMMAND_NAME`
+
+Run commands for services
+
+```
+USAGE
+  $ uscs run COMMAND_NAME
+
+ARGUMENTS
+  COMMAND_NAME  Command name from config
+```
+
+_See code: [src/commands/run.ts](https://github.com/mtk3d/uscs/blob/v0.0.2/src/commands/run.ts)_
 <!-- commandsstop -->

@@ -30,12 +30,8 @@ class Config {
     this.configValidator.validate(this.config);
   }
 
-  _parsedConfig(): object {
-    return this.configParser.parse(this.config);
-  }
-
   getConfig(): any {
-    return this._parsedConfig();
+    return this.configParser.parse(this.config);
   }
 }
 

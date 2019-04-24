@@ -23,7 +23,7 @@ export default class ConfigParser implements ParserInterface {
           throw new Error('Template not found');
         }
 
-        templated = {...service, ...serviceTemplate};
+        templated = {...serviceTemplate, ...service};
       }
       return templated;
     });
@@ -35,8 +35,8 @@ export default class ConfigParser implements ParserInterface {
     let parsedData = data;
     parsedData.services = data.services.map((service: any) => {
       let templated = service;
-      if (service.commands.length) {
-        service.commands.map((commandName: string) => {
+      if (service.commands && service.commands.length) {
+        templated.commands = service.commands.map((commandName: string) => {
           return data.commands
             .find((command: any) => command.name === commandName);
         });

@@ -1,46 +1,49 @@
-import {Command, flags} from '@oclif/command';
+import {Command} from '@oclif/command';
 
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
 export default class Init extends Command {
-  static description = 'describe the command here';
-
-  static flags = {
-    help: flags.help({char: 'h'})
-  };
-
-  static args = [{name: 'file'}];
+  static description = 'Initialize project';
 
   async run() {
-    // const {args, flags} = this.parse(Init);
     const cnf = config.getConfig();
 
-    let task = new ExecTask();
+    const task = new ExecTask();
+
+    if (cnf.networks.length) {
+      const taskSlug = task.addTask('Create networks');
+
+      cnf.networks.forEach((network: string) => {
+        const title = `Creating ${network} network`;
+        const command = `if (docker network inspect ${network} --format='{{println .Name}}'); then echo 'Already exists'; else docker network create ${network}; fi`;
+        task.addCommand(taskSlug, title, command);
+      });
+    }
 
     cnf.services.forEach((service: any) => {
-      const {name, path} = service;
+      const {name, path, docker, git, local_init_script} = service;
 
       const taskSlug = task.addTask(`Init ${name}`);
 
-      if (service.git) {
-        const {git: {branch, repository}} = service;
+      if (git) {
+        const {branch, repository} = git;
         const title = `Clone ${name} to ${path} on ${branch}`;
         const command = `if [ ! -d ${path} ] ; then git clone --branch ${branch} ${repository} ${path}; fi`;
         task.addCommand(taskSlug, title, command);
       }
 
-      if (service.local_init_script.length) {
-        service.local_init_script.forEach((script: string) => {
+      if (local_init_script && local_init_script.length) {
+        local_init_script.forEach((script: string) => {
           const title = `Run "${script}" for ${name}`;
           const command = `cd ${path}; ${script}; cd -`;
           task.addCommand(taskSlug, title, command);
         });
       }
 
-      if (service.docker) {
+      if (docker) {
         const title = `Run docker-compose for ${name}`;
-        const command = `cd ${service.path}; docker-compose up -d; cd -`;
+        const command = `cd ${path}; docker-compose up -d; cd -`;
         task.addCommand(taskSlug, title, command);
       }
     });
