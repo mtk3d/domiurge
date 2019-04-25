@@ -13,7 +13,12 @@ export default class Mysql extends Command {
 
     const task = new ExecTask();
 
-    fs.mkdirSync(this.config.dataDir, {recursive: true});
+    try {
+      fs.accessSync(this.config.dataDir, fs.constants.F_OK);
+    } catch (err) {
+      fs.mkdirSync(this.config.dataDir, {recursive: true});
+    }
+
 
     if (cnf.mysql && cnf.mysql.databases && cnf.mysql.databases.length && cnf.mysql.from && cnf.mysql.to) {
       cnf.mysql.databases.forEach((databaseName: any) => {
