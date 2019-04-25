@@ -29,7 +29,7 @@ export default class Mysql extends Command {
           this._createDatabaseCommand(cnf.mysql.to, databaseName));
 
         task.addCommand(taskSlug,
-          'Export database',
+          'Import database',
           this._importDatabaseCommand(cnf.mysql.to, databaseName, dumpPath));
       });
     }
