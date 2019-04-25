@@ -30,7 +30,7 @@ export default class Mysql extends Command {
 
         task.addCommand(taskSlug,
           'Export database',
-          this._exportDatabaseCommand(cnf.mysql.to, databaseName, dumpPath));
+          this._importDatabaseCommand(cnf.mysql.to, databaseName, dumpPath));
       });
     }
 
