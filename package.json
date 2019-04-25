@@ -1,7 +1,7 @@
 {
   "name": "uscs",
   "description": "CLI for management docker based microservices apps",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Mateusz Cholewka",
   "bin": {
     "uscs": "./bin/run"
