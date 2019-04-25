@@ -3,8 +3,8 @@ import {Command} from '@oclif/command';
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Init extends Command {
-  static description = 'Initialize project';
+export default class Up extends Command {
+  static description = 'Launch project';
 
   async run() {
     const cnf = config.getConfig();
@@ -24,7 +24,7 @@ export default class Init extends Command {
     cnf.services.forEach((service: any) => {
       const {name, path, docker, git, local_init_script} = service;
 
-      const taskSlug = task.addTask(`Init ${name}`);
+      const taskSlug = task.addTask(`Run ${name}`);
 
       if (git) {
         const {branch, repository} = git;

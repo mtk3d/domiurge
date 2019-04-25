@@ -1,21 +1,23 @@
 import * as fs from 'fs';
 import * as yaml from 'js-yaml';
-import * as path from 'path';
-import * as process from 'process';
 
 import ConfigParser from '../parsers/config-parser';
 import ConfigValidator from '../validators/config-validator';
 
 class Config {
-  configPath: string;
-  config!: any;
+  configPath!: string;
+  configFileContent!: any;
+  config: any = {};
   configValidator: ConfigValidator;
   configParser: ConfigParser;
 
-  constructor(configPath: string, configValidator: ConfigValidator, configParser: ConfigParser) {
-    this.configPath = configPath;
+  constructor(configValidator: ConfigValidator, configParser: ConfigParser) {
     this.configValidator = configValidator;
     this.configParser = configParser;
+  }
+
+  init(configPath: string) {
+    this.configPath = configPath;
     this._loadConfigFile();
     this._validateConfig();
   }
@@ -23,21 +25,24 @@ class Config {
   _loadConfigFile(): void | string {
     let yamlString;
     yamlString = fs.readFileSync(this.configPath, 'utf8');
-    this.config = yaml.safeLoad(yamlString);
+    this.configFileContent = yaml.safeLoad(yamlString);
   }
 
   _validateConfig(): void {
-    this.configValidator.validate(this.config);
+    this.configValidator.validate(this.configFileContent);
+  }
+
+  _parseConfig(): void {
+    this.config = this.configParser.parse(this.configFileContent);
   }
 
   getConfig(): any {
-    return this.configParser.parse(this.config);
+    return this.config;
   }
 }
 
-const configPath = path.join(process.cwd(), 'uscs.yaml');
 const configValidator = new ConfigValidator();
 const configParser = new ConfigParser();
-const config = new Config(configPath, configValidator, configParser);
+const config = new Config(configValidator, configParser);
 
 export default config;

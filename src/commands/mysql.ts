@@ -1,5 +1,4 @@
 import {Command} from '@oclif/command';
-import * as fs from 'fs';
 import * as path from 'path';
 
 import config from '../services/config';
@@ -12,13 +11,6 @@ export default class Mysql extends Command {
     const cnf = config.getConfig();
 
     const task = new ExecTask();
-
-    try {
-      fs.accessSync(this.config.dataDir, fs.constants.F_OK);
-    } catch (err) {
-      fs.mkdirSync(this.config.dataDir, {recursive: true});
-    }
-
 
     if (cnf.mysql && cnf.mysql.databases && cnf.mysql.databases.length && cnf.mysql.from && cnf.mysql.to) {
       cnf.mysql.databases.forEach((databaseName: any) => {

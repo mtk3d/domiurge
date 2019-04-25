@@ -13,6 +13,7 @@ export default class Containers extends Command {
       description: 'What you want to do with containers?',
       options: [
         'start',
+        'stop',
         'restart',
         'rebuild'
       ]

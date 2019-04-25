@@ -56,7 +56,10 @@
     "bin": "uscs",
     "plugins": [
       "@oclif/plugin-help"
-    ]
+    ],
+    "hooks": {
+      "init": "./lib/hooks/init/init"
+    }
   },
   "repository": "mtk3d/uscs",
   "scripts": {
