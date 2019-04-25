@@ -20,7 +20,7 @@ $ npm install -g uscs
 $ uscs COMMAND
 running command...
 $ uscs (-v|--version|version)
-uscs/0.1.4 darwin-x64 node-v10.15.3
+uscs/0.1.5 darwin-x64 node-v10.15.3
 $ uscs --help [COMMAND]
 USAGE
   $ uscs COMMAND
@@ -47,7 +47,7 @@ ARGUMENTS
   ACTION  (start|restart|rebuild) What you want to do with containers?
 ```
 
-_See code: [src/commands/containers.ts](https://github.com/mtk3d/uscs/blob/v0.1.4/src/commands/containers.ts)_
+_See code: [src/commands/containers.ts](https://github.com/mtk3d/uscs/blob/v0.1.5/src/commands/containers.ts)_
 
 ## `uscs help [COMMAND]`
 
@@ -75,7 +75,7 @@ USAGE
   $ uscs init
 ```
 
-_See code: [src/commands/init.ts](https://github.com/mtk3d/uscs/blob/v0.1.4/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/mtk3d/uscs/blob/v0.1.5/src/commands/init.ts)_
 
 ## `uscs mysql`
 
@@ -86,7 +86,7 @@ USAGE
   $ uscs mysql
 ```
 
-_See code: [src/commands/mysql.ts](https://github.com/mtk3d/uscs/blob/v0.1.4/src/commands/mysql.ts)_
+_See code: [src/commands/mysql.ts](https://github.com/mtk3d/uscs/blob/v0.1.5/src/commands/mysql.ts)_
 
 ## `uscs run COMMAND_NAME`
 
@@ -100,5 +100,5 @@ ARGUMENTS
   COMMAND_NAME  Command name from config
 ```
 
-_See code: [src/commands/run.ts](https://github.com/mtk3d/uscs/blob/v0.1.4/src/commands/run.ts)_
+_See code: [src/commands/run.ts](https://github.com/mtk3d/uscs/blob/v0.1.5/src/commands/run.ts)_
 <!-- commandsstop -->
