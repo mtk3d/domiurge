@@ -206,36 +206,36 @@
         "signature": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5"
       },
       "/users/mateuszcholewka/sites/uscs/src/index.ts": {
-        "version": "37b0cf2713d8c6a145ad7c76ceb1985af28a0261b72b93a575d5a5dd85701261",
+        "version": "6040b5bb0ab261675fa6820896cabf17e63f103025e7a50360bd2516fe2d9050",
         "signature": "04b2123e996b5c865eec449a1c670c10cee24d12b9f1a97979c0dbbceecc3384"
       },
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/js-yaml/index.d.ts": {
         "version": "a42b7d08df859d5d5774a43c161a70656b7e58c0593f249f5d403a393e0b91c6",
         "signature": "a42b7d08df859d5d5774a43c161a70656b7e58c0593f249f5d403a393e0b91c6"
       },
-      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts": {
-        "version": "3106335e28e9938d85f3a0c63bdbe3f68d9e8fc7ba31b28feba551eb2a9175bb",
-        "signature": "478bb028c950299c7e91a6b9ac685f678fd87c6d4e894f6d19aa2268776211e9"
+      "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts": {
+        "version": "3a46a19e3ea8345f8908a782f125e8d6f3c369b6574bc3ac91d4459f0ff61269",
+        "signature": "3df852f40ef6c2423dfab1a72625a0b53afb2aebe718db57af1be2577d319487"
+      },
+      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts": {
+        "version": "8b9a942306a675599075c6e75e75221a7c64117075e957ebff37171a0a575fcf",
+        "signature": "be605a56983af0b5ce523ab3e0b356742c9c6162eb82e51f78bdfbf304d36fb7"
       },
       "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts": {
         "version": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9",
         "signature": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9"
       },
+      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts": {
+        "version": "0e93ab17972aeb4eb4aafdcb531451c88fcdcff4f3c24b702c752e094e39a971",
+        "signature": "478bb028c950299c7e91a6b9ac685f678fd87c6d4e894f6d19aa2268776211e9"
+      },
       "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts": {
-        "version": "97f63dc27a19319608d818789484a99723058eb4a586eeb7a72df1515d740f60",
+        "version": "554a42d04a98499e3bd5332a37f46ed9e6db9e8828c8e46c8d1e3a9ac9a25df7",
         "signature": "50c8adea2a78bcaf9bf85fd80bd26ff9791a4b0a2dac3d6b846675ddf9aefa76"
       },
-      "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts": {
-        "version": "d3a4e2257ce81ed099d29928b05e178c8a4829ec16de13302d844acf6b710630",
-        "signature": "3df852f40ef6c2423dfab1a72625a0b53afb2aebe718db57af1be2577d319487"
-      },
-      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts": {
-        "version": "b56d558857ba954c52baf9c401a3842206d0161124ee9f00c86e759b64ce81ec",
-        "signature": "be605a56983af0b5ce523ab3e0b356742c9c6162eb82e51f78bdfbf304d36fb7"
-      },
       "/users/mateuszcholewka/sites/uscs/src/services/config.ts": {
-        "version": "188a2b9635416f33bf9b4da8ad0e5588e3a556ffb9796ac5c0563dd5193c836f",
-        "signature": "3201181aae5a817b79a763ce666a86eb62a01a095f7db9e6c9bbbcaca3e39abc"
+        "version": "e93ae80de844c3248cf87e803e62c6364b4f9ef8f628cb9decd017e66f1cf62a",
+        "signature": "ed400b2f0f78a39f7c7817e07c86ec1c50e351f2a99947e4b6d13dc4f236c7a4"
       },
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/globals.d.ts": {
         "version": "1bba2fc2e58c0340b92eeb9185be6e75e27d52f10a315aa65810a19b3277f1c7",
@@ -426,12 +426,24 @@
         "signature": "faa46778d423327cde78a94e2c5a1febe021a94ebf2fc7a5e10867c8cfb23592"
       },
       "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts": {
-        "version": "1be3df42d506ddb44b6b42e5685114aebea7f23501f948b3e32b80d878d8e598",
+        "version": "7d429290716b19d098c4eb61e86295b6557ffca4f1df23cd9bb29b4440ed1cae",
         "signature": "8cbc4ae0367b3421cfe2c69e6a79532c2dca77718e76754e606bfc7fa56b8dcc"
       },
+      "/users/mateuszcholewka/sites/uscs/src/commands/containers.ts": {
+        "version": "992b43afd67fec55c16f430b5035d168211be345e31ce4402791789b4066995d",
+        "signature": "e187154841372be24c9e1d6eb831e5a6ed0d79269ba4029a22545d1db8252aa8"
+      },
       "/users/mateuszcholewka/sites/uscs/src/commands/init.ts": {
-        "version": "feb36634c3313d32d5365e00dfc8756354a0b690cae18a3c0d4c71e66d072558",
-        "signature": "033e818f519e02df1086087c219d3e338342260f64a082f5fd06368cccdd46a8"
+        "version": "7d2b57273dd01d00109c722010bab7cdd431652be0a5039937da9d3517a6b904",
+        "signature": "7b1755755b25b969414bc6826e46e0c567652a1bfa2d73a7846e4eba376f34e4"
+      },
+      "/users/mateuszcholewka/sites/uscs/src/commands/mysql.ts": {
+        "version": "66dea5aa8eeb9f9144348eef03ff59c70ba04b5de74ff0cee90643f020c0fff2",
+        "signature": "cbff6ffd2a4c10e5be61f3669d11a5925e8c8862b2d170f3e4a278c0e30b2022"
+      },
+      "/users/mateuszcholewka/sites/uscs/src/commands/run.ts": {
+        "version": "5c36d03a5aa86ead04a1c41529d2c82b2707803792325587216af61a1e790c00",
+        "signature": "b7c4276c29ac151d5b16ce7dfdd3d76e849f30d410acf5d0b032dc146c307892"
       },
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/chai/index.d.ts": {
         "version": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7",
@@ -773,20 +785,6 @@
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts": [
-        "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
@@ -796,13 +794,27 @@
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts",
+        "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/mateuszcholewka/sites/uscs/src/services/config.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/fs.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/js-yaml/index.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/path.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/process.d.ts",
-        "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts",
         "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts",
+        "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1094,10 +1106,32 @@
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/containers.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
+        "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/mateuszcholewka/sites/uscs/src/commands/init.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts",
         "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/child_process.d.ts",
+        "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/mysql.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/fs.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/path.d.ts",
+        "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
+        "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/run.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
         "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1581,6 +1615,9 @@
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts": [
+        "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts"
+      ],
       "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1856,8 +1893,36 @@
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts"
       ],
+      "/users/mateuszcholewka/sites/uscs/node_modules/@types/execa/index.d.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/child_process.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/stream.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/stream.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/node_modules/slugify/index.d.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/containers.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts"
+      ],
       "/users/mateuszcholewka/sites/uscs/src/commands/init.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/mysql.ts": [
+        "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/uscs/src/commands/run.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts"
       ],
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/chai/index.d.ts": [
@@ -2085,29 +2150,6 @@
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/sinon/ts3.1/index.d.ts": [
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts": [
-        "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/node_modules/@types/execa/index.d.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/child_process.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/stream.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/stream.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/uscs/node_modules/slugify/index.d.ts": [
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2164,9 +2206,12 @@
       "/users/mateuszcholewka/sites/uscs/node_modules/@oclif/command/lib/index.d.ts",
       "/users/mateuszcholewka/sites/uscs/src/index.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/js-yaml/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts",
+      "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts",
+      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/ajv/lib/ajv.d.ts",
+      "/users/mateuszcholewka/sites/uscs/src/validators/validator-interface.ts",
       "/users/mateuszcholewka/sites/uscs/src/validators/config-validator.ts",
+      "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/globals.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/assert.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/async_hooks.d.ts",
@@ -2211,6 +2256,14 @@
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/util.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/globals.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/mateuszcholewka/sites/uscs/node_modules/@types/execa/index.d.ts",
+      "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts",
+      "/users/mateuszcholewka/sites/uscs/node_modules/slugify/index.d.ts",
+      "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
+      "/users/mateuszcholewka/sites/uscs/src/commands/containers.ts",
+      "/users/mateuszcholewka/sites/uscs/src/commands/init.ts",
+      "/users/mateuszcholewka/sites/uscs/src/commands/mysql.ts",
+      "/users/mateuszcholewka/sites/uscs/src/commands/run.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/chai/index.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/lodash/common/common.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/lodash/common/array.d.ts",
@@ -2227,15 +2280,7 @@
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/lodash/index.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/mocha/index.d.ts",
       "/users/mateuszcholewka/sites/uscs/node_modules/@types/nock/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/node_modules/@types/sinon/ts3.1/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/src/parsers/parser-interface.ts",
-      "/users/mateuszcholewka/sites/uscs/src/parsers/config-parser.ts",
-      "/users/mateuszcholewka/sites/uscs/src/services/config.ts",
-      "/users/mateuszcholewka/sites/uscs/node_modules/@types/execa/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/node_modules/@types/listr/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/node_modules/slugify/index.d.ts",
-      "/users/mateuszcholewka/sites/uscs/src/tasks/exec-task.ts",
-      "/users/mateuszcholewka/sites/uscs/src/commands/init.ts"
+      "/users/mateuszcholewka/sites/uscs/node_modules/@types/sinon/ts3.1/index.d.ts"
     ]
   },
   "version": "3.4.3"
