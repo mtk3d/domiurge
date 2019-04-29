@@ -58,7 +58,10 @@
       "@oclif/plugin-help"
     ],
     "hooks": {
-      "init": "./lib/hooks/init/init"
+      "init": [
+        "./lib/hooks/init/check-config",
+        "./lib/hooks/init/check-dependencies"
+      ]
     }
   },
   "repository": "mtk3d/domiurge",
