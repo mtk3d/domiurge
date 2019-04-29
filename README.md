@@ -20,7 +20,7 @@ $ npm install -g domiurge
 $ domiurge COMMAND
 running command...
 $ domiurge (-v|--version|version)
-domiurge/0.1.10 darwin-x64 node-v10.15.3
+domiurge/0.2.0 darwin-x64 node-v10.15.3
 $ domiurge --help [COMMAND]
 USAGE
   $ domiurge COMMAND
@@ -47,7 +47,7 @@ ARGUMENTS
   ACTION  (start|restart|rebuild) What you want to do with containers?
 ```
 
-_See code: [src/commands/containers.ts](https://github.com/mtk3d/domiurge/blob/v0.1.10/src/commands/containers.ts)_
+_See code: [src/commands/containers.ts](https://github.com/mtk3d/domiurge/blob/v0.2.0/src/commands/containers.ts)_
 
 ## `domiurge help [COMMAND]`
 
@@ -66,16 +66,16 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
 
-## `domiurge init`
+## `domiurge up`
 
 Initialize project
 
 ```
 USAGE
-  $ domiurge init
+  $ domiurge up
 ```
 
-_See code: [src/commands/init.ts](https://github.com/mtk3d/domiurge/blob/v0.1.10/src/commands/init.ts)_
+_See code: [src/commands/up.ts](https://github.com/mtk3d/domiurge/blob/v0.2.0/src/commands/up.ts)_
 
 ## `domiurge mysql`
 
@@ -86,7 +86,7 @@ USAGE
   $ domiurge mysql
 ```
 
-_See code: [src/commands/mysql.ts](https://github.com/mtk3d/domiurge/blob/v0.1.10/src/commands/mysql.ts)_
+_See code: [src/commands/mysql.ts](https://github.com/mtk3d/domiurge/blob/v0.2.0/src/commands/mysql.ts)_
 
 ## `domiurge run COMMAND_NAME`
 
@@ -100,5 +100,5 @@ ARGUMENTS
   COMMAND_NAME  Command name from config
 ```
 
-_See code: [src/commands/run.ts](https://github.com/mtk3d/domiurge/blob/v0.1.10/src/commands/run.ts)_
+_See code: [src/commands/run.ts](https://github.com/mtk3d/domiurge/blob/v0.2.0/src/commands/run.ts)_
 <!-- commandsstop -->
