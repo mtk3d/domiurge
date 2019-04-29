@@ -11,16 +11,16 @@ const hook: Hook<'init'> = async function () {
     fs.mkdirSync(this.config.dataDir, {recursive: true});
   }
 
-  let configPath = path.join(process.cwd(), 'dockelop.yaml');
+  let configPath = path.join(process.cwd(), 'domiurge.yaml');
 
   try {
     fs.accessSync(configPath, fs.constants.F_OK);
   } catch {
-    configPath = path.join(process.cwd(), 'dockelop.yml');
+    configPath = path.join(process.cwd(), 'domiurge.yml');
     try {
       fs.accessSync(configPath, fs.constants.F_OK);
     } catch {
-      this.error('There is no dockerlop.yaml file');
+      this.log('There is no domiurge.yaml file');
       this.exit();
     }
   }

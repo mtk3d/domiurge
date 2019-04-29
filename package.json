@@ -1,12 +1,12 @@
 {
-  "name": "uscs",
+  "name": "domiurge",
   "description": "CLI for management docker based microservices apps",
   "version": "0.1.10",
   "author": "Mateusz Cholewka",
   "bin": {
-    "uscs": "./bin/run"
+    "domiurge": "./bin/run"
   },
-  "bugs": "https://github.com/mtk3d/uscs/issues",
+  "bugs": "https://github.com/mtk3d/domiurge/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -45,7 +45,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/mtk3d/uscs",
+  "homepage": "https://github.com/mtk3d/domiurge",
   "keywords": [
     "oclif"
   ],
@@ -53,7 +53,7 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "uscs",
+    "bin": "domiurge",
     "plugins": [
       "@oclif/plugin-help"
     ],
@@ -61,7 +61,7 @@
       "init": "./lib/hooks/init/init"
     }
   },
-  "repository": "mtk3d/uscs",
+  "repository": "mtk3d/domiurge",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "tslint -p test -t stylish",
