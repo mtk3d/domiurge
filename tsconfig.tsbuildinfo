@@ -218,23 +218,26 @@
         "signature": "3df852f40ef6c2423dfab1a72625a0b53afb2aebe718db57af1be2577d319487"
       },
       "/users/mateuszcholewka/sites/domiurge/src/parsers/config-parser.ts": {
-        "version": "8b9a942306a675599075c6e75e75221a7c64117075e957ebff37171a0a575fcf",
+        "version": "4793954e514c32f3deeff972da4e6480387565280570ce1a80f8d426226ef306",
         "signature": "be605a56983af0b5ce523ab3e0b356742c9c6162eb82e51f78bdfbf304d36fb7"
       },
       "/users/mateuszcholewka/sites/domiurge/node_modules/ajv/lib/ajv.d.ts": {
         "version": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9",
         "signature": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9"
       },
+      "/users/mateuszcholewka/sites/domiurge/src/validators/schemas/main-config-schema.json": {
+        "version": "d7f29b93ea178fa7f0c1ec943aedb0c8ad517a64fda9c364fda656f2dd361ec2"
+      },
       "/users/mateuszcholewka/sites/domiurge/src/validators/validator-interface.ts": {
         "version": "0e93ab17972aeb4eb4aafdcb531451c88fcdcff4f3c24b702c752e094e39a971",
         "signature": "478bb028c950299c7e91a6b9ac685f678fd87c6d4e894f6d19aa2268776211e9"
       },
       "/users/mateuszcholewka/sites/domiurge/src/validators/config-validator.ts": {
-        "version": "8ccb4b05d2891f3895d66bff754eddc2f2e957f05dba2906536eb3a4d624f7d9",
+        "version": "497dbe1fa59c5dcc9b69d63613b791836586071792ca2c76ba9419b236801a73",
         "signature": "50c8adea2a78bcaf9bf85fd80bd26ff9791a4b0a2dac3d6b846675ddf9aefa76"
       },
       "/users/mateuszcholewka/sites/domiurge/src/services/config.ts": {
-        "version": "ec37a4bc6f1e487604c30535fb1d1b1b333ccec4f5fcc653131f94fbc385e4af",
+        "version": "6de815134636e92865e6a468ab81c0b7bce5a4c00c9d614343f0c14c26f30ba4",
         "signature": "ee773d094d089cee573673310c7cb07ba81d7e8e34143ca38b58e7a43fc24950"
       },
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/globals.d.ts": {
@@ -426,8 +429,8 @@
         "signature": "faa46778d423327cde78a94e2c5a1febe021a94ebf2fc7a5e10867c8cfb23592"
       },
       "/users/mateuszcholewka/sites/domiurge/src/tasks/exec-task.ts": {
-        "version": "7d429290716b19d098c4eb61e86295b6557ffca4f1df23cd9bb29b4440ed1cae",
-        "signature": "8cbc4ae0367b3421cfe2c69e6a79532c2dca77718e76754e606bfc7fa56b8dcc"
+        "version": "e312343d51d24389e457a58ccae86afde5a84e7d25b56d8fbe6ee7d06ede7405",
+        "signature": "5cd1108271534ece4640a157296201dabd4684b27aec4905b8c60416f8d2ee7f"
       },
       "/users/mateuszcholewka/sites/domiurge/src/commands/containers.ts": {
         "version": "fe2ec9ac1008754045315486c040eab0fcfa945b531a8b7ffe0474083efeb3c8",
@@ -445,8 +448,16 @@
         "version": "ca3ef013cfff940371f347cbd2c8a496dfc717cb3bcac93003492b594f2c088f",
         "signature": "5792daaff32657e6ff629fd773036a47ff81de1a30d8714c79354d7bc2977f15"
       },
-      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/init.ts": {
-        "version": "8d113d291a2bf6da4e7fae16ba5d2dbe7c43ef4edcdc2931010d9e7552c50088",
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-config.ts": {
+        "version": "8a71dc781c500d0d05ae6927024f150123a826960e62ae6c5315f1709aaf027c",
+        "signature": "2b5e613425222eadd5d045963d9d94f44c320899b8b604caf4d5424dd9ebdad2"
+      },
+      "/users/mateuszcholewka/sites/domiurge/src/utils/exec.ts": {
+        "version": "57b0633c42247aa25b749c7f004b57f679229b2640baceb1fe9638eef70c46a7",
+        "signature": "92f140d0af33ac5a6325a78065690131f13b5082983048b9ce3eb172b97e5eaa"
+      },
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-dependencies.ts": {
+        "version": "51f4d6261d7d8df634c9fb7550a449c2802525c235dfa3092ea513057cee703d",
         "signature": "2b5e613425222eadd5d045963d9d94f44c320899b8b604caf4d5424dd9ebdad2"
       },
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/chai/index.d.ts": {
@@ -533,6 +544,8 @@
       "strict": true,
       "target": 4,
       "composite": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
       "configFilePath": "/Users/mateuszcholewka/Sites/domiurge/tsconfig.json"
     },
     "referencedMap": {
@@ -802,12 +815,17 @@
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/mateuszcholewka/sites/domiurge/src/validators/schemas/main-config-schema.json": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/mateuszcholewka/sites/domiurge/src/validators/validator-interface.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/mateuszcholewka/sites/domiurge/src/validators/config-validator.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/ajv/lib/ajv.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/src/validators/schemas/main-config-schema.json",
         "/users/mateuszcholewka/sites/domiurge/src/validators/validator-interface.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1137,11 +1155,22 @@
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/init.ts": [
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-config.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/fs.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/path.d.ts",
         "/users/mateuszcholewka/sites/domiurge/src/services/config.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/src/utils/exec.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/child_process.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-dependencies.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/src/utils/exec.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1373,6 +1402,130 @@
       ]
     },
     "exportedModulesMap": {
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/mateuszcholewka/sites/domiurge/node_modules/tslib/tslib.d.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1810,7 +1963,10 @@
       "/users/mateuszcholewka/sites/domiurge/src/commands/up.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
       ],
-      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/init.ts": [
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-config.ts": [
+        "/users/mateuszcholewka/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-dependencies.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
       ],
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/chai/index.d.ts": [
@@ -2038,130 +2194,6 @@
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/sinon/ts3.1/index.d.ts": [
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es5.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2016.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.dom.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.scripthost.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.core.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.object.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.string.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/mateuszcholewka/sites/domiurge/node_modules/typescript/lib/lib.es2017.full.d.ts": [
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/mateuszcholewka/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2221,6 +2253,7 @@
       "/users/mateuszcholewka/sites/domiurge/src/parsers/parser-interface.ts",
       "/users/mateuszcholewka/sites/domiurge/src/parsers/config-parser.ts",
       "/users/mateuszcholewka/sites/domiurge/node_modules/ajv/lib/ajv.d.ts",
+      "/users/mateuszcholewka/sites/domiurge/src/validators/schemas/main-config-schema.json",
       "/users/mateuszcholewka/sites/domiurge/src/validators/validator-interface.ts",
       "/users/mateuszcholewka/sites/domiurge/src/validators/config-validator.ts",
       "/users/mateuszcholewka/sites/domiurge/src/services/config.ts",
@@ -2276,7 +2309,9 @@
       "/users/mateuszcholewka/sites/domiurge/src/commands/mysql.ts",
       "/users/mateuszcholewka/sites/domiurge/src/commands/run.ts",
       "/users/mateuszcholewka/sites/domiurge/src/commands/up.ts",
-      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/init.ts",
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-config.ts",
+      "/users/mateuszcholewka/sites/domiurge/src/utils/exec.ts",
+      "/users/mateuszcholewka/sites/domiurge/src/hooks/init/check-dependencies.ts",
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/chai/index.d.ts",
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
       "/users/mateuszcholewka/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
