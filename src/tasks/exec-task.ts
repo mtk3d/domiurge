@@ -1,5 +1,5 @@
 import * as execa from 'execa';
-import * as Listr from 'listr';
+import Listr from 'listr';
 import slugify from 'slugify';
 
 export default class ExecTask {

@@ -20,6 +20,7 @@ class Config {
     this.configPath = configPath;
     this._loadConfigFile();
     this._validateConfig();
+    this._parseConfig();
   }
 
   _loadConfigFile(): void | string {

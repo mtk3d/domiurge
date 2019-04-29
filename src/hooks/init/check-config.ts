@@ -24,8 +24,12 @@ const hook: Hook<'init'> = async function () {
       this.exit();
     }
   }
-
-  config.init(configPath);
+  try {
+    config.init(configPath);
+  } catch (error) {
+    this.log(error.toString());
+    this.exit();
+  }
 };
 
 export default hook;

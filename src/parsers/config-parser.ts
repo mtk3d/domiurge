@@ -20,7 +20,7 @@ export default class ConfigParser implements ParserInterface {
           .find((template: any) => template.template_name === service.template);
 
         if (!serviceTemplate) {
-          throw new Error('Template not found');
+          throw new Error(`Template ${service.template} not found`);
         }
 
         templated = {...serviceTemplate, ...service};
