@@ -24,19 +24,21 @@ export default class Run extends Command {
     cnf.services.forEach((service: any) => {
       const {name, path, commands} = service;
 
-      const commandToRun = commands.find((command: any) => {
-        return command.name === command_name;
-      });
-
-      if (commandToRun) {
-        const {script} = commandToRun;
-        const taskSlug = task.addTask(`Running command ${commandToRun.name} for ${name}`);
-
-        script.forEach((run: string) => {
-          const title = `${run}`;
-          const command = `cd ${path}; ${run}; cd -`;
-          task.addCommand(taskSlug, title, command);
+      if (commands) {
+        const commandToRun = commands.find((command: any) => {
+          return command.name === command_name;
         });
+
+        if (commandToRun) {
+          const {script} = commandToRun;
+          const taskSlug = task.addTask(`Running command ${commandToRun.name} for ${name}`);
+
+          script.forEach((run: string) => {
+            const title = `${run}`;
+            const command = `cd ${path}; ${run}; cd -`;
+            task.addCommand(taskSlug, title, command);
+          });
+        }
       }
     });
 
