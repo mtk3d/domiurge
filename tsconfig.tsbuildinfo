@@ -436,12 +436,16 @@
         "version": "fe2ec9ac1008754045315486c040eab0fcfa945b531a8b7ffe0474083efeb3c8",
         "signature": "e187154841372be24c9e1d6eb831e5a6ed0d79269ba4029a22545d1db8252aa8"
       },
+      "/users/owls/sites/domiurge/src/commands/down.ts": {
+        "version": "9ea25aa264f5512e095e136e0303be874a4277116ba57883923bf4edc34baafe",
+        "signature": "1a2761ca77513061de529435edd3391e910a1de7cccbb1d79bd3cdd3793c8914"
+      },
       "/users/owls/sites/domiurge/src/commands/mysql.ts": {
         "version": "362cb5765d8ffe4f553093e529b4e4d7ca702e7bad35658340eafffdbf03c3ca",
         "signature": "cbff6ffd2a4c10e5be61f3669d11a5925e8c8862b2d170f3e4a278c0e30b2022"
       },
       "/users/owls/sites/domiurge/src/commands/run.ts": {
-        "version": "5c36d03a5aa86ead04a1c41529d2c82b2707803792325587216af61a1e790c00",
+        "version": "279786521cffc284f8615481686609a8aee9901219ad1d314474e0f588421915",
         "signature": "b7c4276c29ac151d5b16ce7dfdd3d76e849f30d410acf5d0b032dc146c307892"
       },
       "/users/owls/sites/domiurge/src/commands/up.ts": {
@@ -1133,6 +1137,13 @@
         "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/owls/sites/domiurge/src/commands/down.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/owls/sites/domiurge/src/services/config.ts",
+        "/users/owls/sites/domiurge/src/tasks/exec-task.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/owls/sites/domiurge/src/commands/mysql.ts": [
         "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts",
         "/users/owls/sites/domiurge/node_modules/@types/node/path.d.ts",
@@ -1402,6 +1413,678 @@
       ]
     },
     "exportedModulesMap": {
+      "/users/owls/sites/domiurge/node_modules/tslib/tslib.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/alphabet.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/metadata.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/metadata.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/help.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/parse.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/help.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/config.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/config.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/command.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/main.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/command.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/main.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/index.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/js-yaml/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/parsers/config-parser.ts": [
+        "/users/owls/sites/domiurge/src/parsers/parser-interface.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/ajv/lib/ajv.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/validators/config-validator.ts": [
+        "/users/owls/sites/domiurge/src/validators/validator-interface.ts"
+      ],
+      "/users/owls/sites/domiurge/src/services/config.ts": [
+        "/users/owls/sites/domiurge/src/validators/config-validator.ts",
+        "/users/owls/sites/domiurge/src/parsers/config-parser.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/assert.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/buffer.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/cluster.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/console.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/constants.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/dgram.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/domain.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/http2.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/https.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/inspector.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/module.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/os.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/path.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/process.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/punycode.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/repl.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/timers.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/trace_events.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/tty.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/v8.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/zlib.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/base.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/assert.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/buffer.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/cluster.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/console.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/constants.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/dgram.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/domain.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/http2.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/https.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/inspector.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/module.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/os.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/path.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/process.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/punycode.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/repl.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/string_decoder.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/timers.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/trace_events.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/tty.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/v8.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/worker_threads.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/zlib.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/base.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/execa/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/listr/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/slugify/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/tasks/exec-task.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/listr/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/commands/containers.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/commands/down.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/commands/mysql.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/commands/run.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/commands/up.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/hooks/init/check-config.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/src/hooks/init/check-dependencies.ts": [
+        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/chai/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/mocha/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/nock/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/owls/sites/domiurge/node_modules/@types/sinon/ts3.1/index.d.ts": [
+        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
+        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/owls/sites/domiurge/node_modules/typescript/lib/lib.es5.d.ts": [
         "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1525,675 +2208,6 @@
       "/users/owls/sites/domiurge/node_modules/typescript/lib/lib.es2017.full.d.ts": [
         "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
         "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/tslib/tslib.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/parse.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/help.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/command.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/command.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/main.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/commands/up.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/commands/run.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/commands/mysql.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/commands/containers.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/index.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/main.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/command/lib/flags.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/config.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/hooks/init/check-dependencies.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/hooks/init/check-config.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/config.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/hooks.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/plugin.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/manifest.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/command.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/parse.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/args.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/metadata.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/alphabet.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/alphabet.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/help.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/flags.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/parser/lib/metadata.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/pjson.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@oclif/config/lib/topic.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/js-yaml/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/services/config.ts": [
-        "/users/owls/sites/domiurge/src/validators/config-validator.ts",
-        "/users/owls/sites/domiurge/src/parsers/config-parser.ts"
-      ],
-      "/users/owls/sites/domiurge/src/parsers/config-parser.ts": [
-        "/users/owls/sites/domiurge/src/parsers/parser-interface.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/ajv/lib/ajv.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/validators/config-validator.ts": [
-        "/users/owls/sites/domiurge/src/validators/validator-interface.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/assert.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/base.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/assert.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/buffer.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/cluster.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/console.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/constants.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/dgram.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/domain.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/http2.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/https.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/inspector.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/module.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/os.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/path.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/perf_hooks.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/process.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/punycode.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/repl.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/string_decoder.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/timers.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/trace_events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/tty.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/v8.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/worker_threads.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/zlib.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/base.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/globals.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/nock/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/listr/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/src/tasks/exec-task.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/listr/index.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/execa/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/async_hooks.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/buffer.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/cluster.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/child_process.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/console.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/constants.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/crypto.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/https.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/http2.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/tls.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/dgram.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/dns.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/tty.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/http.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/net.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/domain.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/zlib.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/repl.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/readline.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/fs.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/stream.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/inspector.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/events.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/module.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/os.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/path.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/process.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/punycode.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/url.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/querystring.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/timers.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/trace_events.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/sinon/ts3.1/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/mocha/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/lodash/common/common.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/index.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/array.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/collection.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/date.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/function.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/lang.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/math.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/number.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/object.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/seq.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/string.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/lodash/common/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/chai/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/slugify/index.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/globals.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/vm.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/owls/sites/domiurge/node_modules/@types/node/v8.d.ts": [
-        "/users/owls/sites/domiurge/node_modules/@types/node/util.d.ts",
-        "/users/owls/sites/domiurge/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2306,6 +2320,7 @@
       "/users/owls/sites/domiurge/node_modules/slugify/index.d.ts",
       "/users/owls/sites/domiurge/src/tasks/exec-task.ts",
       "/users/owls/sites/domiurge/src/commands/containers.ts",
+      "/users/owls/sites/domiurge/src/commands/down.ts",
       "/users/owls/sites/domiurge/src/commands/mysql.ts",
       "/users/owls/sites/domiurge/src/commands/run.ts",
       "/users/owls/sites/domiurge/src/commands/up.ts",
