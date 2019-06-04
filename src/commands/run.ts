@@ -24,13 +24,26 @@ export default class Run extends Command {
     cnf.services.forEach((service: any) => {
       const {name, path, commands} = service;
 
+      if (!commands) {
+        return;
+      }
+
       const commandToRun = commands.find((command: any) => {
         return command.name === command_name;
       });
 
       if (commandToRun) {
-        const {script} = commandToRun;
+        const {script, environment} = commandToRun;
         const taskSlug = task.addTask(`Running command ${commandToRun.name} for ${name}`);
+
+        if (environment === 'container') {
+          script.forEach((run: string) => {
+            const title = `${run}`;
+            const command = `docker exec ${name}-php ${run}`;
+            task.addCommand(taskSlug, title, command);
+          });
+          return;
+        }
 
         script.forEach((run: string) => {
           const title = `${run}`;
