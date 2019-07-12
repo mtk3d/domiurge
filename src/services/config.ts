@@ -24,8 +24,7 @@ class Config {
   }
 
   _loadConfigFile(): void | string {
-    let yamlString;
-    yamlString = fs.readFileSync(this.configPath, 'utf8');
+    const yamlString = fs.readFileSync(this.configPath, 'utf8');
     this.configFileContent = yaml.safeLoad(yamlString);
   }
 
