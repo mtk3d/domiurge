@@ -70,7 +70,7 @@
     "postpack": "rm -f oclif.manifest.json",
     "prepack": "rm -rf lib && tsc && oclif-dev manifest && oclif-dev readme",
     "version": "oclif-dev readme && git add README.md",
-    "test": "echo 'no test"
+    "test": "echo 'no test'"
   },
   "types": "lib/index.d.ts"
 }
