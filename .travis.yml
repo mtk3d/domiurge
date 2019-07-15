@@ -4,11 +4,11 @@ node_js:
 
 cache: yarn
 
-install:
-  - yarn
-
 before_script:
   - yarn global add typescript@3.3
+
+before_deploy:
+  - yarn
 
 deploy:
   provider: npm
