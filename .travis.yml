@@ -4,11 +4,16 @@ node_js:
 
 cache: yarn
 
+install:
+  - yarn
+
 before_script:
   - yarn global add typescript@3.3
 
-before_deploy:
-  - yarn
+script:
+  - tsc
+  - oclif-dev manifest
+  - oclif-dev readme
 
 deploy:
   provider: npm
