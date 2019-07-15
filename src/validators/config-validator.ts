@@ -1,6 +1,6 @@
 import Ajv from 'ajv';
 
-import * as mainConfigSchema from './schemas/main-config-schema.json';
+import mainConfigSchema from './schemas/main-config-schema';
 import ValidatorInterface from './validator-interface';
 
 export default class ConfigValidator implements ValidatorInterface {
