@@ -4,8 +4,8 @@ node_js:
 
 cache: yarn
 
-# script:
-  # - yarn run test
+install:
+  - yarn install
 
 deploy:
   provider: npm
