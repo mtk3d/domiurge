@@ -1,9 +1,9 @@
-import {Command} from '@oclif/command';
+import BaseCommand from '../base';
 
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Containers extends Command {
+export default class Containers extends BaseCommand {
   static description = 'Manage containers';
 
   static args = [

@@ -1,10 +1,10 @@
-import {Command} from '@oclif/command';
+import BaseCommand from '../base';
 import * as path from 'path';
 
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Mysql extends Command {
+export default class Mysql extends BaseCommand {
   static description = 'Clone mysql database from remote';
 
   async run() {

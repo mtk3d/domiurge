@@ -1,11 +1,11 @@
-import {Command, flags} from '@oclif/command';
+import BaseCommand from '../base';
 import exec from '../utils/exec';
 import getContainersNames from '../utils/get-containers-names';
 import config from '../services/config';
 import cli from 'cli-ux';
 import clc from 'cli-color';
 
-export default class Status extends Command {
+export default class Status extends BaseCommand {
   static description = 'Get status of project containers'
 
   async run() {

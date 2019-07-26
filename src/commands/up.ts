@@ -1,9 +1,8 @@
-import {Command} from '@oclif/command';
-
+import BaseCommand from '../base';
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Up extends Command {
+export default class Up extends BaseCommand {
   static description = 'Launch project';
 
   async run() {

@@ -1,9 +1,9 @@
-import {Command} from '@oclif/command';
+import BaseCommand from '../base';
 
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Run extends Command {
+export default class Run extends BaseCommand {
   static description = 'Run commands for services';
 
   static args = [

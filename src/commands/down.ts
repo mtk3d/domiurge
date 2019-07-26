@@ -1,9 +1,9 @@
-import {Command} from '@oclif/command';
+import BaseCommand from '../base';
 
 import config from '../services/config';
 import ExecTask from '../tasks/exec-task';
 
-export default class Down extends Command {
+export default class Down extends BaseCommand {
   static description = 'Kill all containers and remove networks';
 
   async run() {

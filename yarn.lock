@@ -2539,7 +2539,7 @@ redeyed@~2.1.0:
   dependencies:
     esprima "~4.0.0"
 
-reflect-metadata@^0.1.12:
+reflect-metadata@^0.1.12, reflect-metadata@^0.1.13:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
@@ -3149,6 +3149,13 @@ tsutils@^3.0.0, tsutils@^3.5.0:
   integrity sha512-SmzGbB0l+8I0QwsPgjooFRaRvHLBLNYM8SeQ0k6rtNDru5sCGeLJcZdwilNndN+GysuFjF5EIYgN8GfFG6UeUw==
   dependencies:
     tslib "^1.8.1"
+
+tsyringe@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/tsyringe/-/tsyringe-3.3.0.tgz#0845302b1d12121f5451e9e73dfae7bfb9f4f252"
+  integrity sha512-XWaZBMbYEnSCi+V9XNyzgDPuDAPdRVQuk5C0aIAJLM3jD7Z/na1b5p+/FWzZ36HfQtweH5bUCdWFlHP7DBj22Q==
+  dependencies:
+    tslib "^1.9.3"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
