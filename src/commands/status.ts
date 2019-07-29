@@ -19,10 +19,6 @@ export default class Status extends Command {
     
     let containers = getContainersNames(paths);
 
-    this.log(containers);
-    this.log(paths);
-    this.log(runnedContainersList);
-
     containers = containers.map((name: any) => {
       const runned = runnedContainers.includes(name);
       return {
