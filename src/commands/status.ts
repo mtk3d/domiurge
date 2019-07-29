@@ -27,15 +27,8 @@ export default class Status extends Command {
       }
     });
 
-    const labels: any = {
-      name: {
-        header: "NAME"
-      }, 
-      status: {
-        header: "STATUS"
-      }
-    };
-
-    cli.table(containers, labels);
+    containers.forEach(({status, name}: {status: any, name: any}) => {
+      this.log(`${status} - ${name}`);
+    });
   }
 }
