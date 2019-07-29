@@ -12,7 +12,7 @@ before_script:
 - yarn global add typescript@3.3
 
 script:
-- tsc
+- tsc -b --listEmittedFiles
 - oclif-dev manifest
 - oclif-dev readme
 
