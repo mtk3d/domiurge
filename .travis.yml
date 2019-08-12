@@ -15,6 +15,7 @@ before_deploy:
 - tsc -b --listEmittedFiles
 - oclif-dev manifest
 - oclif-dev readme
+- ls
 
 deploy:
   provider: npm
