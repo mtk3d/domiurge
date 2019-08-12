@@ -11,7 +11,7 @@ install:
 before_script:
 - yarn global add typescript@3.3
 
-script:
+before_deploy:
 - tsc -b --listEmittedFiles
 - oclif-dev manifest
 - oclif-dev readme
