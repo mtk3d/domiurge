@@ -1,7 +1,7 @@
 {
   "name": "domiurge",
   "description": "CLI for management docker based microservices apps",
-  "version": "0.3.28",
+  "version": "0.2.29",
   "author": "Mateusz Cholewka",
   "bin": {
     "domiurge": "./bin/run"
