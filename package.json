@@ -43,10 +43,10 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/bin",
-    "/lib",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    "bin",
+    "lib",
+    "npm-shrinkwrap.json",
+    "oclif.manifest.json"
   ],
   "homepage": "https://github.com/mtk3d/domiurge",
   "keywords": [
